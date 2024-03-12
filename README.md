@@ -4,7 +4,7 @@
 
 The Auto Driving Car Simulation is a Python-based project designed to simulate the movements of multiple cars on a grid. Each car can move forward, turn left, or turn right based on a series of commands. The simulation checks for collisions between cars and ensures that cars do not move outside the designated grid boundaries.
 
-## Design Decisions
+## Design Considerations
 
 ### Data Types and Structures
 
@@ -112,3 +112,10 @@ There are 6 test cases written to test the functionality of `car_simulator.py`.
 Just go to the terminal and type `pytest -sv`
 
 ![alt text](images/image-3.png)
+
+## Further Enhancement to make it product fit
+
+1. Providing a reverse command or Back command (B). It increases realism factor
+2. Instead of facing N,E,W,S only, we can also allow to Car to face diagonal as in NE, NW, SE, SW. This could also allow to reach the destination faster.
+3. We can introduce the collision avoidance factor, which basically allows car to stop to collide with each other or with any other object in its way
+4. We can add GUI to visualise it much better
