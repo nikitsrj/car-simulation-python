@@ -31,6 +31,14 @@ The entire development of code is done in TDD approach means Red-Green-Refactor 
 #### Example 
 **Car Class**
 
+`Car Class initialization`
+
+```python
+class Car:
+    def __init__(self, name, x, y, direction, commands):     
+        pass
+```
+
 `Test case`
 
 ```python
@@ -47,9 +55,9 @@ def test_car_initialization():
 ```
 `Running Test case Now`
 
-![alt text](images/image-4.png)
+![alt text](images/image-6.png)
 
-`Car Class initialization`
+`Refactor Car Class`
 ``` python
 class Car:
     def __init__(self, name, x, y, direction, commands):     
